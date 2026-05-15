@@ -21,4 +21,4 @@ A dynamic weather app that detects your location automatically and adapts its vi
 
 ## Preview
 
-![Weather App](public/screenshots/screenshot.png)
+![Weather App](screenshots/screenshot.png)
