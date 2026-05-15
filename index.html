@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Outfit:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/weather-app/assets/index-CJt-Ub7T.js"></script>
+    <link rel="stylesheet" crossorigin href="/weather-app/assets/index-C5RrR-Mf.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="app-header">
+        <h1 class="app-title">Weather</h1>
+      </header>
+
+      <div class="search-box">
+        <input
+          type="text"
+          id="city-input"
+          placeholder="Въведи град..."
+          autocomplete="off"
+          spellcheck="false"
+        />
+        <button id="search-btn">Търсене</button>
+      </div>
+
+      <div class="weather-card">
+        <div class="weather-main">
+          <h2 id="city-name"></h2>
+          <img id="weather-icon" src="" alt="Weather icon" />
+        </div>
+
+        <p id="temperature"></p>
+        <p id="description"></p>
+
+        <div class="divider"></div>
+
+        <div class="weather-details">
+          <div class="detail-item">
+            <div class="detail-label">Влажност</div>
+            <div class="detail-value" id="humidity">--</div>
+          </div>
+          <div class="detail-item">
+            <div class="detail-label">Вятър</div>
+            <div class="detail-value" id="wind-speed">--</div>
+          </div>
+          <div class="detail-item">
+            <div class="detail-label">Усеща се</div>
+            <div class="detail-value" id="feels-like">--</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
